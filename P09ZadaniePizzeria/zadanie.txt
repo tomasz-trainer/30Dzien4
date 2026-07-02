@@ -1,0 +1,21 @@
+Zadanie: Mini-System Zamówieñ dla Pizzerii (P09ZadaniePizzeria)
+Poziom: Podstawowy / Œredni
+
+Cel zadania:
+Tworzy aplikacjê do sk³adania zamówieñ w pizzerii.
+
+Wymagania (kluczowe funkcjonalnoœci):
+
+    Stwórz ComboBox z rozmiarem pizzy (Ma³a, Œrednia, Du¿a) - zmiana rozmiaru
+    powinna wp³ywaæ na cenê bazow¹.
+
+    Dodatki: grupa CheckBoxów (np. ser, pieczarki, salami, oliwki). Ka¿dy dodatek
+    ma swoj¹ cenê (np. +3 z³).
+
+    Dostawa: RadioButton (Odbiór osobisty - 0 z³ / Dowóz - 10 z³). Jeœli wybrany
+    jest dowóz, pola tekstowe na adres staj¹ siê aktywne (Enabled = true),
+    w przeciwnym razie s¹ zablokowane.
+
+    Podsumowanie: przycisk "Oblicz", który dynamicznie wyœwietla w Label aktualn¹
+    kwotê do zap³aty oraz generuje w wielolinijkowym polu TextBox pe³ne
+    podsumowanie zamówienia gotowe do "wys³ania".

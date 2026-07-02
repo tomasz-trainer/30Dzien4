@@ -7,4 +7,7 @@
   <Project Path="P06ZadaniePogoda/P06ZadaniePogoda.csproj" />
   <Project Path="P07DataBinding/P07DataBinding.csproj" />
   <Project Path="P08ZadanieFiltrowanieDanych/P08ZadanieFiltrowanieDanych.csproj" />
+  <Project Path="P09ZadaniePizzeria/P09ZadaniePizzeria.csproj" />
+  <Project Path="P10ZadanieListaZadan/P10ZadanieListaZadan.csproj" />
+  <Project Path="P11ZadanieMemoryMatch/P11ZadanieMemoryMatch.csproj" />
 </Solution>

@@ -1,0 +1,22 @@
+Zadanie: Gra w Zapamiêtywanie - "Memory Match" (P11ZadanieMemoryMatch)
+Poziom: Zaawansowany
+
+Cel zadania:
+Æwiczenie logicznego myœlenia, algorytmiki, dynamicznego zarz¹dzania stanem
+aplikacji oraz u¿ycia komponentu Timer. Klasyczna gra w dopasowywanie par
+odkrywanych kart.
+
+Wymagania (kluczowe funkcjonalnoœci):
+
+    Plansza: siatka 4x4 sk³adaj¹ca siê z 16 przycisków (Button). Na pocz¹tku gry
+    program losowo przypisuje ukryte symbole w parach do ka¿dego przycisku.
+
+    Mechanika gry: klikniêcie przycisku ods³ania jego zawartoœæ. U¿ytkownik mo¿e
+    odkryæ maksymalnie dwa przyciski.
+
+    Obs³uga czasu (Timer): jeœli odkryte przyciski nie s¹ par¹, aplikacja odczekuje
+    ok. 1 sekundy (Timer), a nastêpnie automatycznie je zakrywa. Jeœli s¹ par¹ -
+    przyciski staj¹ siê nieaktywne (Enabled = false).
+
+    Licznik ruchów: aplikacja zlicza i wyœwietla liczbê wykonanych prób, a po
+    odgadniêciu wszystkich par pokazuje komunikat o wygranej.

@@ -1,0 +1,21 @@
+Zadanie: Cyfrowy Organizer i Lista Zadañ (P10ZadanieListaZadan)
+Poziom: Œredni
+
+Cel zadania:
+Æwiczenie dynamicznego zarz¹dzania danymi, obs³ugi zdarzeñ (Events) oraz
+elementów estetycznych. Aplikacja typu To-Do List pozwala planowaæ zadania
+i kategoryzowaæ je wed³ug priorytetów.
+
+Wymagania (kluczowe funkcjonalnoœci):
+
+    Dodawanie zadañ: u¿ytkownik wpisuje nazwê zadania w TextBox i wybiera priorytet
+    (Niski, Œredni, Wysoki) za pomoc¹ ComboBox.
+
+    Zarz¹dzanie list¹: u¿ycie kontrolki ListBox (lub ListView). Nale¿y
+    zaimplementowaæ przyciski: "Dodaj", "Usuñ zaznaczone" oraz "Wyczyœæ wszystko".
+
+    Kolorowanie priorytetów: zadania o wysokim priorytecie powinny wyœwietlaæ siê
+    na liœcie na czerwono.
+
+    Licznik: Label, który na bie¿¹co pokazuje, ile zadañ znajduje siê aktualnie
+    na liœcie.
