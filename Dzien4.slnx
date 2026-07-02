@@ -3,4 +3,6 @@
   <Project Path="P02KlasyCzesciowe/P02KlasyCzesciowe.csproj" />
   <Project Path="P03ZadanieKalkulator/P03ZadanieKalkulator.csproj" />
   <Project Path="P04AplikacjaZawodnicy/P04AplikacjaZawodnicy.csproj" />
+  <Project Path="P05PrzegladKontrolek/P05PrzegladKontrolek.csproj" />
+  <Project Path="P06ZadaniePogoda/P06ZadaniePogoda.csproj" />
 </Solution>

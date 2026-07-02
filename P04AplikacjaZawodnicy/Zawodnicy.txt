@@ -15,4 +15,4 @@ id_zawodnika,id_trenera,imie,nazwisko,kraj,data_ur,wzrost,waga
 14,3,Bjoern-Einar,ROMOEREN,NOR,1981-04-01 00:00:00,182,63
 15,3,Roar,LJOEKELSOEY,NOR,1976-05-31 00:00:00,175,62
 16,,Alan,ALBORN,USA,1980-12-13 00:00:00,177,57
-17,4,Adam,MAŁYSZ,POL,1977-12-03 00:00:00,169,60
+17,4,Adam,Nowak,POL,1977-12-03 00:00:00,169,60

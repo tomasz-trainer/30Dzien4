@@ -1,0 +1,26 @@
+Cel zadania:
+
+Celem tego zadania jest stworzenie  programu, który pozwala na wczytanie nazwy miasta z 
+listy rozwijanej i wyświetla aktualną temperaturę dla tego miasta. 
+Program powinien dodatkowo wyświetlać 
+ikonkę pogodową w zależności od aktualnej temperatury.
+
+Wymagania:
+
+    Program powinien wczytywać listę miast z pliku miasta.txt i wyświetlać je w elemencie listy rozwijanej 
+    (ComboBox).
+
+    Po kliknięciu przycisku "Wczytaj", program powinien pobierać aktualną temperaturę dla
+    wybranego miasta z Google  
+
+    Temperaturę należy wyświetlić w elemencie Label.
+
+    W zależności od wartości temperatury, obok etykiety powinna pojawić się odpowiednia ikonka pogodowa:
+        Śnieg: jeżeli temperatura w stopniach Celsjusza jest poniżej 0.
+        Chmurka: jeżeli temperatura w stopniach Celsjusza jest od 0 do 10.
+        Słońce: jeżeli temperatura w stopniach Celsjusza jest powyżej 10.
+
+        Opcjonalne:
+
+    Dodaj zestaw RadioButton'ów, które pozwolą na wybór jednostki temperatury: Celsjusze, Kelwiny, Fahrenheit. 
+    Dodaj możliwość odświeżenia danych po kliknięciu w dodatkowy przycisk "Odśwież".
