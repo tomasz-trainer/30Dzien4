@@ -11,7 +11,7 @@ Wymagania:
     (ComboBox).
 
     Po kliknięciu przycisku "Wczytaj", program powinien pobierać aktualną temperaturę dla
-    wybranego miasta z Google  
+    wybranego miasta z WebAPI (Skorzystaj z poprzedniego projektu, który pobierał dane pogodowe z WebAPI).  
 
     Temperaturę należy wyświetlić w elemencie Label.
 
@@ -24,3 +24,5 @@ Wymagania:
 
     Dodaj zestaw RadioButton'ów, które pozwolą na wybór jednostki temperatury: Celsjusze, Kelwiny, Fahrenheit. 
     Dodaj możliwość odświeżenia danych po kliknięciu w dodatkowy przycisk "Odśwież".
+
+ 

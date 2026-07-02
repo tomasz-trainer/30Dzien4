@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Node4");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Node3", new System.Windows.Forms.TreeNode[] {
-            treeNode1});
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Node2", new System.Windows.Forms.TreeNode[] {
-            treeNode2});
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Node0", new System.Windows.Forms.TreeNode[] {
-            treeNode3});
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Node1");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Node7");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Node8");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Node5", new System.Windows.Forms.TreeNode[] {
-            treeNode6,
-            treeNode7});
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Node6");
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Node4");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Node3", new System.Windows.Forms.TreeNode[] {
+            treeNode10});
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Node2", new System.Windows.Forms.TreeNode[] {
+            treeNode11});
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Node0", new System.Windows.Forms.TreeNode[] {
+            treeNode12});
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Node1");
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Node7");
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Node8");
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Node5", new System.Windows.Forms.TreeNode[] {
+            treeNode15,
+            treeNode16});
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Node6");
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -58,7 +58,6 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.button1 = new System.Windows.Forms.Button();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
@@ -68,12 +67,13 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.button2 = new System.Windows.Forms.Button();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -133,29 +133,29 @@
             // 
             this.treeView1.Location = new System.Drawing.Point(630, 1);
             this.treeView1.Name = "treeView1";
-            treeNode1.Name = "Node4";
-            treeNode1.Text = "Node4";
-            treeNode2.Name = "Node3";
-            treeNode2.Text = "Node3";
-            treeNode3.Name = "Node2";
-            treeNode3.Text = "Node2";
-            treeNode4.Name = "Node0";
-            treeNode4.Text = "Node0";
-            treeNode5.Name = "Node1";
-            treeNode5.Text = "Node1";
-            treeNode6.Name = "Node7";
-            treeNode6.Text = "Node7";
-            treeNode7.Name = "Node8";
-            treeNode7.Text = "Node8";
-            treeNode8.Name = "Node5";
-            treeNode8.Text = "Node5";
-            treeNode9.Name = "Node6";
-            treeNode9.Text = "Node6";
+            treeNode10.Name = "Node4";
+            treeNode10.Text = "Node4";
+            treeNode11.Name = "Node3";
+            treeNode11.Text = "Node3";
+            treeNode12.Name = "Node2";
+            treeNode12.Text = "Node2";
+            treeNode13.Name = "Node0";
+            treeNode13.Text = "Node0";
+            treeNode14.Name = "Node1";
+            treeNode14.Text = "Node1";
+            treeNode15.Name = "Node7";
+            treeNode15.Text = "Node7";
+            treeNode16.Name = "Node8";
+            treeNode16.Text = "Node8";
+            treeNode17.Name = "Node5";
+            treeNode17.Text = "Node5";
+            treeNode18.Name = "Node6";
+            treeNode18.Text = "Node6";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode4,
-            treeNode5,
-            treeNode8,
-            treeNode9});
+            treeNode13,
+            treeNode14,
+            treeNode17,
+            treeNode18});
             this.treeView1.Size = new System.Drawing.Size(162, 159);
             this.treeView1.TabIndex = 31;
             // 
@@ -259,16 +259,6 @@
             this.progressBar1.Size = new System.Drawing.Size(214, 23);
             this.progressBar1.TabIndex = 24;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::P05PrzegladKontrolek.Properties.Resources.q;
-            this.pictureBox1.Location = new System.Drawing.Point(397, 53);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(214, 97);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 23;
-            this.pictureBox1.TabStop = false;
-            // 
             // numericUpDown1
             // 
             this.numericUpDown1.Location = new System.Drawing.Point(397, 16);
@@ -345,6 +335,15 @@
             this.webBrowser1.Size = new System.Drawing.Size(880, 585);
             this.webBrowser1.TabIndex = 1;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(397, 53);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(140, 107);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 23;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -359,8 +358,8 @@
             this.tabPage2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
