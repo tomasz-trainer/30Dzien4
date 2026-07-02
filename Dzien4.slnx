@@ -5,4 +5,5 @@
   <Project Path="P04AplikacjaZawodnicy/P04AplikacjaZawodnicy.csproj" />
   <Project Path="P05PrzegladKontrolek/P05PrzegladKontrolek.csproj" />
   <Project Path="P06ZadaniePogoda/P06ZadaniePogoda.csproj" />
+  <Project Path="P07DataBinding/P07DataBinding.csproj" />
 </Solution>
