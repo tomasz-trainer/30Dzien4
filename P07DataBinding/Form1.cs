@@ -32,7 +32,13 @@ namespace P07DataBinding
             // checmy odczytać, który zawodnik jest aktualnie zaznaczony 
             Zawodnik zaznaczony = (Zawodnik)lbDane.SelectedItem;
 
-            MessageBox.Show(zaznaczony.ImieNazwisko);
+            // MessageBox.Show(zaznaczony.ImieNazwisko);
+
+            ManagerPogody mp = new ManagerPogody();
+            Temperatura temp =mp.PodajTemperature(zaznaczony.Kraj, JednostkaTemperatury.Celsjusz);
+
+            lblRaport.Text = String.Format("W kraju {0}, skąd pochodzi zawodnik {1} temperatura wynosi {2}",
+                zaznaczony.Kraj, zaznaczony.ImieNazwisko, temp.WartoscWCelsjusz);
         }
     }
 }
