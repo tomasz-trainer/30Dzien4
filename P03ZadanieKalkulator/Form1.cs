@@ -45,9 +45,7 @@ namespace P03ZadanieKalkulator
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Bład", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-                
+                MessageBox.Show(ex.Message, "Bład", MessageBoxButtons.OK, MessageBoxIcon.Error);               
             }
         }
 
