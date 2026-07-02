@@ -12,9 +12,30 @@ namespace P08ZadanieFiltrowanieDanych
 {
     public partial class Form1 : Form
     {
+        ManagerZawodnikow mz;
+        string sciezka = @"C:\Users\csharp\source\repos\Dzien4\P04AplikacjaZawodnicy\zawodnicy.txt";
+
         public Form1()
         {
             InitializeComponent();
+
+           
+            mz = new ManagerZawodnikow();
+            mz.WczytajZawodnikow(sciezka);
+
+            cbKraje.DataSource = mz.PodajKraje();
+        }
+
+        private void cbKraje_SelectedIndexChanged(object sender, EventArgs e)
+        { 
+            string zaznaczonyKraj = (string)cbKraje.SelectedItem;
+
+            lbDane.DataSource = mz.PodajZawodnikow(zaznaczonyKraj);
+            lbDane.DisplayMember = "ImieNazwisko";
+
+            double wzrost = mz.PodajSredniWzrost(zaznaczonyKraj);
+            lblRaport.Text = string.Format("Średni wzrost: {0:0.00} cm", wzrost);
+
         }
     }
 }
