@@ -22,4 +22,5 @@ Opcjonalne:
 Dodaj przycisk do czyszczenia wyświetlacza.
 Dodaj przycisk do zmiany znaku liczby (plus/minus).
 
+
  

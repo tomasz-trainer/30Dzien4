@@ -16,5 +16,38 @@ namespace P03ZadanieKalkulator
         {
             InitializeComponent();
         }
+
+        private void btnJeden_Click(object sender, EventArgs e)
+        {
+            txtWyswietlacz.Text += "1";
+        }
+
+        private void btnDwa_Click(object sender, EventArgs e)
+        {
+            txtWyswietlacz.Text += "2";
+        }
+
+
+         private void btnPrzycisk_Click(object sender, EventArgs e)
+        {
+            // potraktoruj sender jako Button
+            Button tenKliekniety = (Button)sender;
+            txtWyswietlacz.Text += tenKliekniety.Text;
+        }
+
+        private void btnRownaSie_Click(object sender, EventArgs e)
+        {
+
+        }
+
+         private void btnCzysc_Click(object sender, EventArgs e)
+        {
+            txtWyswietlacz.Clear();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
