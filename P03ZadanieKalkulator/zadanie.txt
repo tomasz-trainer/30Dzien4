@@ -1,0 +1,25 @@
+Zadanie: Prosty Kalkulator w Windows Forms w C# (P03ZadanieKalkulator)
+Cel zadania:
+
+Celem tego zadania jest stworzenie prostego kalkulatora,
+podobnego do wbudowanego w systemie Windows, przy użyciu technologii Windows Forms w języku programowania C#. 
+
+Wymagania:
+
+Interfejs użytkownika powinien składać się z:
+    Przycisków numerycznych (0-9).
+    Przycisków dla operacji dodawania, odejmowania, mnożenia i dzielenia.
+    Pola tekstowego (TextBox), w którym będzie wyświetlany wynik.
+
+Utwórz oddzielną klasę, która będzie zawierała metody do wykonywania operacji matematycznych.
+Klasa ta powinna udostępniać metody do dodawania, odejmowania, mnożenia i dzielenia dwóch liczb. 
+Pamiętaj, aby obsłużyć sytuację dzielenia przez zero.
+
+Logika kalkulatora powinna być odseparowana od logiki interfejsu użytkownika. 
+Wszystkie obliczenia powinny być wykonywane w oddzielnej klasie, a nie bezpośrednio w kodzie formularza.
+Opcjonalne:
+
+Dodaj przycisk do czyszczenia wyświetlacza.
+Dodaj przycisk do zmiany znaku liczby (plus/minus).
+
+ 
